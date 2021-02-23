@@ -1,0 +1,17 @@
+.panel {
+    display: inline-block;
+    background: #ffffff;
+    min-height: 100px;
+    height: 100px;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background-image: linear-gradient(#242ac9, #9635e6);
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    alignment: center;
+    display: flex;
+    align-items: center;
+}

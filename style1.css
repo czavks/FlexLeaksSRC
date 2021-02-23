@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+body
+{
+
+    font-family: "Segoe UI Light";
+    animation-name: fadeOut;
+    animation-duration: 2s;
+   /* background-image: linear-gradient(#51B6D3, #D3516B); */
+    background-color: #100E17;
+}
+
+.header
+{
+    font-family: 'Lato', sans-serif;
+    margin-left: auto;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    animation-name: spin;
+    animation-duration: 2s;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.subheader {
+    font-family: Consolas;
+    text-align: center;
+    color: azure;
+    letter-spacing: 10px;
+}
+.subheader {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .30em; /* Adjust as needed */
+    animation:
+            typing 6s steps(30, end),
+            blink-caret .5s step-end infinite;
+    padding-bottom: 50px;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
+input[type=text] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search
+{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 30px;
+
+}
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+
+}
+.search
+{
+    size: 40px;
+    padding: 20px;
+    font-family: monospace;
+    background-color: #161616;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.paddedhr
+{
+    letter-spacing: 10px;
+
+}
+.button1 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #191919;
+    border-radius: 8px;
+    background: #464646;
+    background: -webkit-gradient(linear, left top, left bottom, from(#464646), to(#191919));
+    background: -moz-linear-gradient(top, #464646, #191919);
+    background: linear-gradient(to bottom, #464646, #191919);
+    
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+
+
+
+
+
+}
+.button1:hover,
+.button1:focus {
+    border: 1px solid #1c1c1c;
+    background: #545454;
+    background: -webkit-gradient(linear, left top, left bottom, from(#545454), to(#1e1e1e));
+    background: -moz-linear-gradient(top, #545454, #1e1e1e);
+    background: linear-gradient(to bottom, #545454, #1e1e1e);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button1:active {
+    background: #191919;
+    background: -webkit-gradient(linear, left top, left bottom, from(#191919), to(#191919));
+    background: -moz-linear-gradient(top, #191919, #191919);
+    background: linear-gradient(to bottom, #191919, #191919);
+}
+
+
